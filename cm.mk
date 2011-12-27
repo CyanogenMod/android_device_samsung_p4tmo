@@ -1,5 +1,5 @@
-# Inherit device configuration for p4wifi.
-$(call inherit-product, device/samsung/p4wifi/p4wifi.mk)
+# Inherit device configuration for p4tmo.
+$(call inherit-product, device/samsung/p4tmo/p4tmo.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
