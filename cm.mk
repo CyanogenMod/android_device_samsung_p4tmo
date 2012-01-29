@@ -4,7 +4,7 @@ $(call inherit-product, device/samsung/p4tmo/p4tmo.mk)
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
-# Inhert GSM common stuff
+# Inherit GSM common stuff
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 #
